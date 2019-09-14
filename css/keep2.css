@@ -1,0 +1,82 @@
+/*
+#  .................
+#  ·················
+#  ··_______________
+#  ·/·___/·___/·___/
+#  /·/__(__··|__··)·
+#  \___/____/____/··
+#  ·················
+#  .................
+*/
+
+html,body{
+ padding: 0;
+ margin: 0;
+ font-size: 12px;
+ font-family: 'Saira', sans-serif;
+}
+
+nav{
+ display: flex;
+ background-color: black;
+ padding: 10px;
+ color: white;
+ justify-content: space-between;
+ align-items: center;
+}
+
+nav ul{
+ display: flex;
+}
+
+nav li{
+ padding-left: 20px;
+ list-style: none;
+}
+
+nav li a {
+ color: white;
+ text-decoration: none;
+}
+
+nav li a:hover{
+ color: red;
+}
+
+h1{ 
+ text-align: center;
+ font-size: 25px;
+}
+
+p{
+ text-align: center;
+ margin-left: 450px;
+ margin-right: 450px;
+ font-size: 17px;
+ 
+}
+
+/* ------------------------ Main section */
+
+.img_content{
+ text-align: center;
+ margin-top: 200px;
+}
+
+.main_buttton{
+ background-color:black;;
+ width: 100%;
+ padding: 10px;
+ font-size: 20px;
+ color: white;
+ border: none;
+ cursor: pointer;
+ border-radius: 2px;
+ margin: 2px;
+ text-align: center;
+}
+
+.main_buttton:hover{
+ background-color: #ea1615;
+ color: black;
+}

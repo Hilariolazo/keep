@@ -1,0 +1,209 @@
+/*
+#  .................
+#  ·················
+#  ··_______________
+#  ·/·___/·___/·___/
+#  /·/__(__··|__··)·
+#  \___/____/____/··
+#  ·················
+#  .................
+*/
+
+html,body{
+ padding: 0;
+ margin: 0;
+ font-size: 12px;
+ font-family: 'Saira', sans-serif;
+}
+
+nav{
+ display: flex;
+ background-color: black;
+ padding: 10px;
+ color: white;
+ justify-content: space-between;
+ align-items: center;
+}
+
+nav ul{
+ display: flex;
+}
+
+nav li{
+ padding-left: 20px;
+ list-style: none;
+}
+
+nav li a {
+ color: white;
+ text-decoration: none;
+}
+
+nav li a:hover{
+ color: red;
+}
+
+h1{
+ text-align: center;
+ font-size: 25px;
+}
+
+h2{
+ text-align: center;
+}
+
+h3{
+ font-size: 17px;
+}
+
+/* ------------------------ Main section */
+
+.main_section{
+ padding: 15%;
+ text-align: center;
+}
+
+.products{
+ background-image: url(../html_css/image2/curve.png);
+ height: 50px;
+ background-size: cover;
+ background-position: center top;
+ padding: 15%;
+ display: flex;
+}
+
+.product{
+ padding: 10px;
+ margin-top: -240px;
+}
+
+.product .content{
+ background-color: white;
+ padding: 20px;
+ box-shadow: 0 0 2px #768080;
+}
+
+.img_content{
+ text-align: center;
+}
+
+.main_button{
+ background-color:black;;
+ width: 100%;
+ padding: 10px;
+ font-size: 20px;
+ color: white;
+ border: none;
+ cursor: pointer;
+ border-radius: 2px;
+ margin: 2px;
+}
+
+.main_buttton{
+ background-color:black;;
+ width: 100%;
+ padding: 10px;
+ font-size: 20px;
+ color: white;
+ border: none;
+ cursor: pointer;
+ border-radius: 2px;
+ margin: 2px;
+}
+
+.main_button:hover{
+ background-color: #ea1615;
+ color: black;
+}
+
+.main_buttton:hover{
+ background-color: #ea1615;
+ color: black;
+}
+
+.img_textt{
+ text-align: center;
+}
+
+.textt p{
+ font-size: 15px;
+}
+
+/* 1234 */
+
+h2.mention_title{
+ text-align: center;
+}
+
+.more_music{
+ padding: 15%;
+ display: flex;
+}
+
+.more_musi{
+ text-align: center;
+ padding: 10px;
+}
+
+.see_more{
+ color: red;
+}
+
+.see_more:hover{
+ color: black;
+}
+
+/* fin de 1234 */
+
+.mentions{
+ display: flex;
+ padding: 5%;
+}
+
+.mention img{
+ width: 100%;
+}
+
+.mention{
+ padding: 10px;
+}
+
+.content_mention{
+ box-shadow: 0px 0 2pc 1px #e6e5e9;
+}
+
+.mention .text{
+ padding: 10px;
+}
+
+ /* --------------------------------------------------------------venta */
+
+.modulo_pago_images{
+ text-align: center;
+}
+
+.modulo_pago{
+background-color: white;
+box-shadow: 0px 0 2px 1px #e6e5e9;
+padding: 10px;
+}
+
+ /* --------------------------------------------------------------venta */
+
+/* Footer */
+
+footer{
+ display: flex;
+ justify-content: space-between;
+ background-color: black ;
+ padding: 10px;
+ color: white;
+}
+
+footer .option{
+ color: white;
+}
+
+.option:hover{
+ color: red;
+}
